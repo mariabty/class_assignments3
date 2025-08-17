@@ -4,9 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maria's Portfolio</title>
-  <link rel="stylesheet" href="style.css"> <!-- External CSS link -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- 🔹 Navigation Bar -->
+<nav class="navbar">
+  <div class="logo">Maria's Portfolio</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://www.instagram.com/mxmariax3?igsh=dXpzZ2x6NWlxcHcx&utm_source=qr" target="_blank">Instagram</a></li>
+  </ul>
+  <!-- Hamburger -->
+  <div class="hamburger" id="hamburger">&#9776;</div>
+</nav>
 
 <header>
   <img src="mariaaa.JPG" alt="Profile Picture" class="profile-pic">
@@ -16,12 +31,12 @@
 
 <div class="container">
 
-  <div class="section">
+  <div class="section" id="about">
     <h2>About Me</h2>
     <p>Hello! I’m a passionate student learning web development and design. I enjoy creating clean and user-friendly websites that are both functional and attractive.</p>
   </div>
 
-  <div class="section">
+  <div class="section" id="skills">
     <h2>Skills</h2>
     <ul>
       <li>HTML, CSS, JavaScript</li>
@@ -30,7 +45,7 @@
     </ul>
   </div>
 
-  <div class="section">
+  <div class="section" id="projects">
     <h2>Projects</h2>
     <ul>
       <li><strong>Personal Portfolio</strong> – This website you're viewing now!</li>
@@ -38,12 +53,12 @@
     </ul>
   </div>
 
-  <div class="section">
+  <div class="section" id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:mariabasumataryx3@gmail.com">mariabasumataryx3@gmail.com</a></p>
     <div class="social">
       <a href="https://github.com/mariabty" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/maria-basumatary-42b31a329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/maria-basumatary-42b31a329" target="_blank">LinkedIn</a>
       <a href="mailto:mariabasumataryx3@gmail.com">Email Me</a>
     </div>
   </div>
@@ -54,5 +69,6 @@
   &copy; Maria Basumatary :3.
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
