@@ -1,6 +1,7 @@
 # class_assignments3
 
 PART 1
+
 EXPERIMENT 3: Responsive Navigation Bar (CSS Layout & Responsiveness)
 
 ● Task: Design a responsive navigation bar suitable for a website.
