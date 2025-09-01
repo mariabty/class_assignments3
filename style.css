@@ -55,7 +55,7 @@ body {
   .nav-links {
     display: none;
     flex-direction: column;
-    background: pink;
+    background: plum;
     position: absolute;
     top: 60px;
     right: 20px;
